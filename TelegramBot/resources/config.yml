@@ -1,0 +1,63 @@
+#################################
+### Configurazioni Essenziali ###
+#################################
+
+# Il token del tuo bot di Telegram.
+# Se non hai bot, creane uno con @BotFather("https://core.telegram.org/bots#botfather") .
+token: ""
+
+# Il chat_id del tuo gruppo Telegram o il nome pubblico del tuo canale Telegram, e.g. -23612486, "@mlip_status".
+# Si noti che il bot deve essere unito al gruppo o essere un amministratore del canale.
+# Puoi ottenere il tuo chat_id del gruppo usando il comando '/ chat_id' qui.
+defaultChannel: ""
+
+# L'intervallo del bot che aggiorna i messaggi dall'API di Telegram.
+# Un secondo è uguale a 20. Se si tratta di un valore negativo, l'aggiornamento sarà disabilitato.
+updateInterval: 20
+
+# TODO: Descrizione richiesta
+minecraftUserPrefix: "~"
+
+# TODO: Descrizione richiesta
+telegramUserPrefix: "@"
+
+
+
+
+######################################
+### Configurazioni di collegamento ###
+######################################
+
+# Trasmette automaticamente le attività del server al tuo gruppo / canale Telegram.
+broadcastToTelegram: true
+
+# Trasmette automaticamente i messaggi degli utenti del gruppo Telegram al tuo server.
+broadcastTelegramMessages: true
+
+# Gestisce i messaggi di comando da Telegram, ad es. '/ chat_id', '/ online'
+enableTelegramCommands: true
+
+# TODO: Descrizione richiesta
+broadcastServerStart: false
+
+
+
+#######################################
+### Configurazioni API Bot avanzate ###
+#######################################
+
+# Disattiva le anteprime dei link per i link nei tuoi messaggi.
+disableWebPagePreview: true
+
+# Applica la sintassi di Markdown di base ai tuoi messaggi.
+# vedere "https://core.telegram.org/bots/api#using-markdown".
+enableMarkdownParsing: false
+
+
+
+##################################
+### Opzioni dello sviluppatore ###
+##################################
+
+# Mostra le risposte dell'API Bot di Telegram alla console del server.
+debugMode: false

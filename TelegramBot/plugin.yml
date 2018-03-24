@@ -1,0 +1,9 @@
+name: TelegramBot
+version: "1.0"
+description: Tramite le API di Telegram consente la creazione di un Bot per il Log
+
+author: Loryitaly
+website: play.marketli.it
+
+main: Loryitaly\TelegramBot\TelegramBot
+api: 3.0.0-ALPHA7
